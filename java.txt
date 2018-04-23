@@ -1,0 +1,11 @@
+Some things may have changed since you left the language, here some personal proposals:
+•Servlets and JSP, you should take the dust off to this and include some EL (Enterprise Language)
+•A build tool (Maven or Ant), most of Java application are now built with the help of them.
+•Any Web Framework (Spring MVC, Struts2 or JSF are good choices)
+•IoC and ORM (Spring and Hibernate are good choices)
+•Take a look to Apache Commons and use them when possible
+
+Also some features from Java 5+ like:
+•Annotations
+•Generics
+ 

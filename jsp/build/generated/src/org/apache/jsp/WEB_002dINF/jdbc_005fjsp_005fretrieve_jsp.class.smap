@@ -1,0 +1,12 @@
+SMAP
+jdbc_005fjsp_005fretrieve_jsp.java
+JSP
+*S JSP
+*F
++ 0 jdbc_jsp_retrieve.jsp
+WEB-INF/jdbc_jsp_retrieve.jsp
+*L
+5,16:45
+21,19:62
+39,5:81
+*E
