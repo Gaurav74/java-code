@@ -5,11 +5,9 @@
  */
 package collection;
 
-import java.util.Collection;
-import java.util.Comparator;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.function.UnaryOperator;
 
 /**
  *
@@ -29,6 +27,14 @@ public class linkedlist {
         System.out.println("this is before sorting");
         System.out.println(list);
         list.add(87);
+        LinkedList<Integer> l=new LinkedList<>();
+         l.addAll(list);
+         l.addLast(5);
+         l.addFirst(3);
+         l.removeFirstOccurrence((Integer)1);
+         int first=l.getFirst();
+  int last=l.getLast();
+
         //UnaryOperator<Integer> operator = null;
         //list.replaceAll(operator);
         list.remove((Object)87);
@@ -37,8 +43,12 @@ public class linkedlist {
     list.set(0,140);
     list.sort(null);
     System.out.println(list);
-    
-    
+    List<String> ll=new ArrayList<>();
+ int y=  (int) "sddsd".chars().distinct().count();
+ ll.add("zello");
+ ll.add("jikk");
+   ll.sort(null);
+    System.out.print(ll);
     }
     
 }
