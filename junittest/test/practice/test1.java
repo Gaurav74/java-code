@@ -13,24 +13,22 @@ import org.junit.Test;
  *
  * @author GAURAV
  */
-public class fixtures {
-    static int value=0;
-    public fixtures() {
+public class test1 {
+    
+    public test1() {
     }
     
     @BeforeClass
     public static void setUpClass() {
-        System.out.println("before class");
     }
-    
-    @Test
-    public void test(){
-        System.out.println(" inside the test  ");
-    }
-    
+
+@Test
+public void test(){
+System.out.println("inside test 1");
+}
+
     @AfterClass
     public static void tearDownClass() {
-    System.out.println("after class");
     }
 
     // TODO add test methods here.
